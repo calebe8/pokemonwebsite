@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Define a base visual da página. */
+body {
+  margin: 0;
+  background-color: #f1f5f9;
+  color: #172033;
+  font-family: Arial, sans-serif;
+}
+
+/* Centraliza o conteúdo e limita sua largura máxima. */
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+/* Ativa o Grid e cria três colunas iguais. */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Cria espaço entre linhas e colunas. */
+  gap: 1rem;
+}
+
+/* Estiliza cada item do Grid. */
+.card {
+  padding: 1.5rem;
+  background-color: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.75rem;
+}
+
+/* Remove a margem superior padrão e destaca os títulos. */
+.card h2 {
+  margin-top: 0;
+  color: #2563eb;
+}
+
+/* Em telas pequenas, os cards ocupam uma única coluna. */
+@media (max-width: 767px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
