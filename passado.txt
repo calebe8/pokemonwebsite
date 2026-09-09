@@ -1,0 +1,79 @@
+/* O "*" serve para modficar todo o site; box-sizing serve para que o programa considere o padding e border
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #ffde05;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;     
+}
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+.menu{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 1rem; 
+    padding: 1rem;
+}
+  
+.menu a {
+     padding: 0.75rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+.img-inicio{
+    width: 10rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.img-sobre_nos{
+    width: 14rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.img-principais_pokemon{
+    width: 19.5rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.pokemon { 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem auto; 
+    justify-items: center; 
+    width: 100%;
+}
+.pokemon a {
+    display: inline-block;
+    margin: 1rem;
+}
+.pokemon img {
+    width: 7rem;
+    height: 7rem; 
+    border: 1px solid black;
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+
+}
+@media (min-width: 700px) {
+    .menu {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .pokemon {
+        max-width: 100%;
+    }
+} */

@@ -4,35 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Pokémon</title>
+    <title>Pokémon - Pokédex Responsiva</title>
 </head>
 
 <body>
     
     <main>
-            
-        <nav class="menu">
-            <a href="#inicio"><img src="imagens-nav/Inicio-9-8-2026.png" class="img-inicio" alt="imagem_de_inicio"></a>
-            <a href="#principais_pokemon"><img src="imagens-nav/Principais-Pokemon-9-8-2026.png" class="img-principais_pokemon" alt="pokemon"></a>
-            <a href="#sobre_nos"><img src="imagens-nav/Sobre-N-s-9-8-2026.png" class="img-sobre_nos" alt="sobre_eu"></a>
+        <!-- Menu Principal -->
+        <nav class="menu" id="inicio">
+            <a href="#inicio"><img src="imagens-nav/Inicio-9-8-2026.png" class="img-inicio" alt="Início"></a>
+            <a href="#principais_pokemon"><img src="imagens-nav/Principais-Pokemon-9-8-2026.png" class="img-principais_pokemon" alt="Principais Pokémon"></a>
+            <a href="#sobre_nos"><img src="imagens-nav/Sobre-N-s-9-8-2026.png" class="img-sobre_nos" alt="Sobre Nós"></a>
         </nav>
-        
-        <section class="pokemon">
+
+        <!-- Galeria de Imagens com Links de Âncora -->
+        <section class="pokemon" id="principais_pokemon">
             <a href="#pikachu">
-            <img src="imgs-pokemon/pikachu.jpg"  alt="pikachu">
+                <img src="imgs-pokemon/pikachu.jpg" alt="Pikachu">
             </a>
             <a href="#eevee">
-            <img src="imgs-pokemon/eevee.png" alt="eevee">
+                <img src="imgs-pokemon/eevee.png" alt="Eevee">
             </a>
             <a href="#bulbasaur">
-            <img src="imgs-pokemon/bulbasaur.jpg" alt="bulbasaur">
+                <img src="imgs-pokemon/bulbasaur.jpg" alt="Bulbasaur">
             </a>
             <a href="#ponyta">
-            <img src="imgs-pokemon/ponyta.png" alt="ponyta">
+                <img src="imgs-pokemon/ponyta.png" alt="Ponyta">
             </a>
             <a href="#charmander">
-            <img src="imgs-pokemon/charmander.png" alt="charmander">
+                <img src="imgs-pokemon/charmander.png" alt="Charmander">
             </a>
+        </section>
+
+        <!-- Cards com IDs correspondentes para receber o clique -->
+        <section class="grid-cartoes">
+            <article class="card" id="pikachu">
+                <h3>Pikachu</h3>
+                <p>Tipo: Elétrico</p>
+            </article>
+
+            <article class="card" id="eevee">
+                <h3>Eevee</h3>
+                <p>Tipo: Normal</p>
+            </article>
+
+            <article class="card" id="bulbasaur">
+                <h3>Bulbasaur</h3>
+                <p>Tipo: Planta / Veneno</p>
+            </article>
+
+            <article class="card" id="ponyta">
+                <h3>Ponyta</h3>
+                <p>Tipo: Fogo</p>
+            </article>
+
+            <article class="card" id="charmander">
+                <h3>Charmander</h3>
+                <p>Tipo: Fogo</p>
+            </article>
         </section>
             
     </main>

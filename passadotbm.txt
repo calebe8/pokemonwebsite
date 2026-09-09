@@ -1,0 +1,40 @@
+<!--<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokémon</title>
+</head>
+
+<body>
+    
+    <main>
+            
+        <nav class="menu">
+            <a href="#inicio"><img src="imagens-nav/Inicio-9-8-2026.png" class="img-inicio" alt="imagem_de_inicio"></a>
+            <a href="#principais_pokemon"><img src="imagens-nav/Principais-Pokemon-9-8-2026.png" class="img-principais_pokemon" alt="pokemon"></a>
+            <a href="#sobre_nos"><img src="imagens-nav/Sobre-N-s-9-8-2026.png" class="img-sobre_nos" alt="sobre_eu"></a>
+        </nav>
+        
+        <section class="pokemon">
+            <a href="#pikachu">
+            <img src="imgs-pokemon/pikachu.jpg"  alt="pikachu">
+            </a>
+            <a href="#eevee">
+            <img src="imgs-pokemon/eevee.png" alt="eevee">
+            </a>
+            <a href="#bulbasaur">
+            <img src="imgs-pokemon/bulbasaur.jpg" alt="bulbasaur">
+            </a>
+            <a href="#ponyta">
+            <img src="imgs-pokemon/ponyta.png" alt="ponyta">
+            </a>
+            <a href="#charmander">
+            <img src="imgs-pokemon/charmander.png" alt="charmander">
+            </a>
+        </section>
+            
+    </main>
+</body>
+</html> -->
